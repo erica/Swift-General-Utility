@@ -4,6 +4,10 @@ Support code for developing Swift code.
 
 ## Contents
 
+### Utility
+
+A `Utility` namespace for hosting utility functionality withing your app.
+
 ### Applicative
 
 Inline functional `Applicative` protocol that supports applying a closure to an instance, returning the instance. 
@@ -14,10 +18,6 @@ Inline functional `Applicative` protocol that supports applying a closure to an 
 
 Run a system command with `Process` and return the contents of stdout or throw stderr for non-zero status. Although you may call this with either a single string or (cmd-path, argument-array), the latter approach is preferred.
 
-### Result utility
-
-Initializes a `Result` from a completion handler's `(data?, error?)`.
-
 ### RuntimeError
 
 A stringity error type representing runtime errors.
@@ -26,17 +26,29 @@ A stringity error type representing runtime errors.
 
 Enables debugging within method chains and condition cascades.
 
-### StringUtility
-
-`String` utilities.
-
 ### SynchronousData
 
 Request synchronous data using `URLSession`.
 
-### Utility
+### Type Utilities
 
-A `Utility` namespace for hosting utility functionality withing your app.
+#### Collection Utility
+
+* Partition split
+
+#### FileManager Utility
+
+* Performs `isDir` check on path
+
+#### Result utility
+
+* Initializes a `Result` from a completion handler's `(data?, error?)`.
+
+#### StringUtility
+
+* Trim a string
+* Perform `isDir` check on string path.
+
 
 ## Installation
 
@@ -50,7 +62,7 @@ SwiftPM:
 
 ```
 dependencies: [
-    .package(url: "https://github.com/erica/Swift-General-Utility", from: "0.0.1"),
+.package(url: "https://github.com/erica/Swift-General-Utility", from: "x.x.x"), // replace with version
 ],
 targets: [
     .target(

@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EAA208324AA3A7E00A84FCD /* Collection+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA208224AA3A7E00A84FCD /* Collection+Utility.swift */; };
 		8EADD9192497EEA00006B547 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9182497EEA00006B547 /* main.swift */; };
 		8EADD9222497EFD30006B547 /* Applicative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9212497EFD30006B547 /* Applicative.swift */; };
 		8EADD9242497EFE80006B547 /* Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9232497EFE80006B547 /* Execute.swift */; };
 		8EADD9272497EFF00006B547 /* Utility+SideEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9252497EFEF0006B547 /* Utility+SideEffect.swift */; };
 		8EADD9282497EFF00006B547 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9262497EFF00006B547 /* Utility.swift */; };
 		8EADD92A2497EFF80006B547 /* SynchronousData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9292497EFF80006B547 /* SynchronousData.swift */; };
-		8EADD92C2497EFFD0006B547 /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD92B2497EFFD0006B547 /* StringUtility.swift */; };
+		8EADD92C2497EFFD0006B547 /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD92B2497EFFD0006B547 /* String+Utility.swift */; };
 		8EADD92E2497F00D0006B547 /* Result+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD92D2497F00D0006B547 /* Result+Utility.swift */; };
 		8EADD9302497F04D0006B547 /* RuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD92F2497F04D0006B547 /* RuntimeError.swift */; };
+		8EE482A724A92ECE00395F67 /* FileManager+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE482A624A92ECE00395F67 /* FileManager+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8EAA208224AA3A7E00A84FCD /* Collection+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utility.swift"; sourceTree = "<group>"; };
 		8EADD9152497EEA00006B547 /* Swift General Utility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift General Utility"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EADD9182497EEA00006B547 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8EADD9212497EFD30006B547 /* Applicative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Applicative.swift; sourceTree = "<group>"; };
@@ -38,9 +41,10 @@
 		8EADD9252497EFEF0006B547 /* Utility+SideEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utility+SideEffect.swift"; sourceTree = "<group>"; };
 		8EADD9262497EFF00006B547 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		8EADD9292497EFF80006B547 /* SynchronousData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronousData.swift; sourceTree = "<group>"; };
-		8EADD92B2497EFFD0006B547 /* StringUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
+		8EADD92B2497EFFD0006B547 /* String+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utility.swift"; sourceTree = "<group>"; };
 		8EADD92D2497F00D0006B547 /* Result+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+Utility.swift"; sourceTree = "<group>"; };
 		8EADD92F2497F04D0006B547 /* RuntimeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeError.swift; sourceTree = "<group>"; };
+		8EE482A624A92ECE00395F67 /* FileManager+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +88,12 @@
 			children = (
 				8EADD9212497EFD30006B547 /* Applicative.swift */,
 				8EADD9232497EFE80006B547 /* Execute.swift */,
+				8EADD9292497EFF80006B547 /* SynchronousData.swift */,
+				8EAA208224AA3A7E00A84FCD /* Collection+Utility.swift */,
+				8EE482A624A92ECE00395F67 /* FileManager+Utility.swift */,
 				8EADD92D2497F00D0006B547 /* Result+Utility.swift */,
 				8EADD92F2497F04D0006B547 /* RuntimeError.swift */,
-				8EADD92B2497EFFD0006B547 /* StringUtility.swift */,
-				8EADD9292497EFF80006B547 /* SynchronousData.swift */,
+				8EADD92B2497EFFD0006B547 /* String+Utility.swift */,
 				8EADD9262497EFF00006B547 /* Utility.swift */,
 				8EADD9252497EFEF0006B547 /* Utility+SideEffect.swift */,
 			);
@@ -121,7 +127,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Erica Sadun";
 				TargetAttributes = {
 					8EADD9142497EEA00006B547 = {
@@ -156,11 +162,13 @@
 				8EADD92A2497EFF80006B547 /* SynchronousData.swift in Sources */,
 				8EADD9272497EFF00006B547 /* Utility+SideEffect.swift in Sources */,
 				8EADD9302497F04D0006B547 /* RuntimeError.swift in Sources */,
+				8EE482A724A92ECE00395F67 /* FileManager+Utility.swift in Sources */,
 				8EADD9242497EFE80006B547 /* Execute.swift in Sources */,
 				8EADD9222497EFD30006B547 /* Applicative.swift in Sources */,
+				8EAA208324AA3A7E00A84FCD /* Collection+Utility.swift in Sources */,
 				8EADD92E2497F00D0006B547 /* Result+Utility.swift in Sources */,
 				8EADD9192497EEA00006B547 /* main.swift in Sources */,
-				8EADD92C2497EFFD0006B547 /* StringUtility.swift in Sources */,
+				8EADD92C2497EFFD0006B547 /* String+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +201,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -253,6 +262,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -283,6 +293,7 @@
 		8EADD91D2497EEA00006B547 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W4DVPEQ39;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -294,6 +305,7 @@
 		8EADD91E2497EEA00006B547 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W4DVPEQ39;
 				ENABLE_HARDENED_RUNTIME = YES;
