@@ -20,6 +20,9 @@ let package = Package(
             dependencies: [],
             path: "Sources/"
             ),
+        .testTarget(
+            name: "Tests",
+            dependencies: ["GeneralUtility"])
     ],
     swiftLanguageVersions: [
       .v5

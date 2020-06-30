@@ -2,7 +2,7 @@
 
 import Foundation
 
-/// A stringity error type representing runtime errors encountered by this utility
+/// A stringity error type representing runtime errors.
 public struct RuntimeError: Error, CustomStringConvertible {
     
     /// Stringity description

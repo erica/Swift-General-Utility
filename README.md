@@ -14,10 +14,6 @@ Inline functional `Applicative` protocol that supports applying a closure to an 
 
 *Note:* Types must conform to the protocol to inherit the behavior, as non-nominal types like `Any` cannot be extended.
 
-### Execute
-
-Run a system command with `Process` and return the contents of stdout or throw stderr for non-zero status. Although you may call this with either a single string or (cmd-path, argument-array), the latter approach is preferred.
-
 ### RuntimeError
 
 A stringity error type representing runtime errors.
@@ -32,22 +28,17 @@ Request synchronous data using `URLSession`.
 
 ### Type Utilities
 
-#### Collection Utility
+#### Collection utility
 
-* Partition split
-
-#### FileManager Utility
-
-* Performs `isDir` check on path
+* Partition split.
 
 #### Result utility
 
 * Initializes a `Result` from a completion handler's `(data?, error?)`.
 
-#### StringUtility
+#### String utility
 
 * Trim a string
-* Perform `isDir` check on string path.
 
 
 ## Installation
@@ -73,4 +64,3 @@ targets: [
     ),
 ],
 ```
-
