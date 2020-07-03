@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "GeneralUtility",
+    name: "Swift-General-Utility",
     platforms: [
       .macOS(.v10_12)
     ],
