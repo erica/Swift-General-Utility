@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.5
+
+Add: Exponentiation
+Add: Schoolbook Rounding
+
 ## 0.0.3
 
 Add: FileManager touch (url and string path)
