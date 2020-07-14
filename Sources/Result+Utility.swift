@@ -1,6 +1,8 @@
 //  Copyright © 2020 Erica Sadun. All rights reserved.
 
-extension Result {
+import Foundation
+
+extension Result where Success == Data, Failure: Error {
     /// Initializes a `Result` from a completion handler's `(data?, error?)`.
     ///
     /// When both data and error are non-nil, `Result` first populates the
@@ -9,13 +11,25 @@ extension Result {
     /// - Parameters:
     ///   - data: the optional data returned via a completion handler
     ///   - error: the optional error returned via a completion handler
-    public init(_ data: Success?, _ error: Failure?) {
+    public init(_ data: Data?, _ error: Failure?, fallbackError: Failure = Result.defaultFallbackError() as! Failure) {
         precondition(!(data == nil && error == nil))
         switch (data, error) {
         case (_, let failure?): self = .failure(failure)
         case (let success?, _): self = .success(success)
-        default:
-            fatalError("Cannot initialize `Result` without success or failure")
+        default: self = .failure(fallbackError)
         }
+    }
+    
+    static public func defaultFallbackError() -> Error {
+        let userInfo: [String : Any] =
+            [
+                "NSLocalizedDescriptionKey" :
+                    NSLocalizedString("Cannot initialize `Result` with nil data and nil error", comment: ""),
+                "NSLocalizedFailureReasonErrorKey" :
+                    NSLocalizedString("Cannot initialize `Result` with nil data and nil error", comment: "")
+            ]
+        return NSError(domain: "com.ericasadun.SwiftGeneralUtility",
+                       code: NSURLErrorBadServerResponse,
+                       userInfo: userInfo)
     }
 }

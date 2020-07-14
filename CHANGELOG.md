@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.0.6
+Restructure: `Result` to have a default error when data and error are nil.
+Add: Async data
+Restructure: Sync data to use Async data task
+Add: Data tests 
+
 ## 0.0.5
 
 Add: Exponentiation

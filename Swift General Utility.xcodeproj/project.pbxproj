@@ -25,6 +25,7 @@
 		8E2E774D24BE5BD700028B37 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E774924BE5BD700028B37 /* Exponentiation.swift */; };
 		8E2E775024BE5BD700028B37 /* Rounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E774B24BE5BD700028B37 /* Rounding.swift */; };
 		8E2E775124BE5BD700028B37 /* Rounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E774B24BE5BD700028B37 /* Rounding.swift */; };
+		8E2E775324BE6DE200028B37 /* DataRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E775224BE6DE200028B37 /* DataRequestTest.swift */; };
 		8EAA208324AA3A7E00A84FCD /* Collection+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA208224AA3A7E00A84FCD /* Collection+Utility.swift */; };
 		8EADD9192497EEA00006B547 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9182497EEA00006B547 /* main.swift */; };
 		8EADD9222497EFD30006B547 /* Applicative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADD9212497EFD30006B547 /* Applicative.swift */; };
@@ -69,6 +70,7 @@
 		8E2E774724BE5B5900028B37 /* MathTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTest.swift; sourceTree = "<group>"; };
 		8E2E774924BE5BD700028B37 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
 		8E2E774B24BE5BD700028B37 /* Rounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rounding.swift; sourceTree = "<group>"; };
+		8E2E775224BE6DE200028B37 /* DataRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestTest.swift; sourceTree = "<group>"; };
 		8EAA208224AA3A7E00A84FCD /* Collection+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utility.swift"; sourceTree = "<group>"; };
 		8EADD9152497EEA00006B547 /* Swift General Utility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift General Utility"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EADD9182497EEA00006B547 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				8E2E773E24BE5B2000028B37 /* PartitionTest.swift */,
 				8E2E774524BE5B5200028B37 /* StringTest.swift */,
 				8E2E774724BE5B5900028B37 /* MathTest.swift */,
+				8E2E775224BE6DE200028B37 /* DataRequestTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				8E2E774624BE5B5200028B37 /* StringTest.swift in Sources */,
 				8E2E774224BE5B2000028B37 /* PartitionTest.swift in Sources */,
 				8E2E774824BE5B5900028B37 /* MathTest.swift in Sources */,
+				8E2E775324BE6DE200028B37 /* DataRequestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
