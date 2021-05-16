@@ -59,7 +59,7 @@ targets: [
     .target(
         name: "TARGET-NAME",
         dependencies: [
-           .product(name: "GeneralUtility"),
+           .product(name: "GeneralUtility", package: "Swift-General-Utility"),
         ],
     ),
 ],

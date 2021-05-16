@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.0.7
+Update README.md to use modern dependency example
+
 ## 0.0.6
 Restructure: `Result` to have a default error when data and error are nil.
 Add: Async data
