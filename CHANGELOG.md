@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.0.8
+Moved out all specific utility to its own Misc Utility library. This now only vends the core enum
+
 ## 0.0.7
 Update README.md to use modern dependency example
 
